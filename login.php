@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['first_name'] = $user['first_name'];
             $_SESSION['email'] = $user['email'];
 
-            header("Location: home.html");
+            header("Location: home.php");
             exit();
         } else {
             echo "Incorrect password.";

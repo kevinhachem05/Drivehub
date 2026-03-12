@@ -848,8 +848,7 @@ $firstName = htmlspecialchars($_SESSION['first_name']);
 <span style="color:white;font-size:14px;margin-right:10px;">
 Welcome, <?php echo $firstName; ?>
 </span>
-
-<a href="logout.php" class="btn-outline">Logout</a>
+ 
 </div>
 </nav>
 

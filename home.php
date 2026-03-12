@@ -850,7 +850,6 @@ Welcome, <?php echo $firstName; ?>
 </span>
 
 <a href="logout.php" class="btn-outline">Logout</a>
-
 </div>
 </nav>
 

@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.html");
     exit();
@@ -845,9 +844,6 @@ $firstName = htmlspecialchars($_SESSION['first_name']);
 
   <div class="nav-cta">
 
-<span style="color:white;font-size:14px;margin-right:10px;">
-Welcome, <?php echo $firstName; ?>
-</span>
  
 </div>
 </nav>

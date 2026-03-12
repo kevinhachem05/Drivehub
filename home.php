@@ -850,7 +850,6 @@ Welcome, <?php echo $firstName; ?>
 </span>
 
 <a href="logout.php" class="btn-outline">Logout</a>
-<a href="index.php" class="btn-red">List Your Car</a>
 
 </div>
 </nav>
